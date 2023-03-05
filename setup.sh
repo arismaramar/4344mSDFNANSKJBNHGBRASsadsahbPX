@@ -44,10 +44,10 @@ echo -e "${green}Permission Accepted...${NC}"
 else
 echo -e "${red}Permission Denied!${NC}";
 echo ""
-echo -e "Your IP is ${red}NOT REGISTER${NC} @ ${red}EXPIRED${NC}"
+echo -e "Script EXP COK! ${red}NOT REGISTER${NC} @ ${red}EXPIRED${NC}"
 echo ""
 echo -e "Please Contact ${green}Admin${NC}"
-echo -e "Telegram : t.me/wunuit"
+echo -e "Telegram : t.me/lunoximpostor"
 rm -f setup-lite.sh
 exit 0
 fi
