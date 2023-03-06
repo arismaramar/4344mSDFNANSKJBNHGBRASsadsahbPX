@@ -19,7 +19,7 @@ green='\e[0;32m'
 purple='\e[0;35m'
 orange='\e[0;33m'
 NC='\e[0m'
-export Server_URL="raw.githubusercontent.com/annelyah23/xyz/main"
+export Server_URL="raw.githubusercontent.comhttps://github.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main"
 dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
 #########################
@@ -37,8 +37,8 @@ tyblue() { echo -e "\\033[36;1m${*}\\033[0m"; }
 yellow() { echo -e "\\033[33;1m${*}\\033[0m"; }
 green() { echo -e "\\033[32;1m${*}\\033[0m"; }
 red() { echo -e "\\033[31;1m${*}\\033[0m"; }
-cek=$( curl -sS https://raw.githubusercontent.com/annelyah23/IP/main/access | awk '{print $2}'  | grep $MYIP )
-Name=$(curl -sS https://raw.githubusercontent.com/annelyah23/IP/main/access | grep $MYIP | awk '{print $4}')
+cek=$( curl -sS https://raw.githubusercontent.com/lunoxximpostor/4344mSDFNANSKJBNHGBRASsadsahbPX/main/access | awk '{print $2}'  | grep $MYIP )
+Name=$(curl -sS https://raw.githubusercontent.com/lunoxximpostor/4344mSDFNANSKJBNHGBRASsadsahbPX/main/access | grep $MYIP | awk '{print $4}')
 if [[ $cek = $MYIP ]]; then
 echo -e "${green}Permission Accepted...${NC}"
 else
@@ -54,7 +54,7 @@ fi
 clear
 
 BURIQ() {
-    curl -sS https://raw.githubusercontent.com/annelyah23/IP/main/access >/root/tmp
+    curl -sS https://raw.githubusercontent.com/lunoxximpostor/4344mSDFNANSKJBNHGBRASsadsahbPX/main/access >/root/tmp
     data=($(cat /root/tmp | grep -E "^### " | awk '{print $4}'))
     for user in "${data[@]}"; do
         exp=($(grep -E "^### $user" "/root/tmp" | awk '{print $3}'))
@@ -71,7 +71,7 @@ BURIQ() {
 }
 
 MYIP=$(wget -qO- ipv4.icanhazip.com);
-Name=$(curl -sS https://raw.githubusercontent.com/annelyah23/IP/main/access | grep $MYIP | awk '{print $4}')
+Name=$(curl -sS https://raw.githubusercontent.com/lunoxximpostor/4344mSDFNANSKJBNHGBRASsadsahbPX/main/access | grep $MYIP | awk '{print $4}')
 echo $Name >/usr/local/etc/.$Name.ini
 CekOne=$(cat /usr/local/etc/.$Name.ini)
 
@@ -88,7 +88,7 @@ Bloman() {
 
 PERMISSION() {
     MYIP=$(wget -qO- ipv4.icanhazip.com);
-    IZIN=$(curl -sS https://raw.githubusercontent.com/annelyah23/IP/main/access | awk '{print $2}' | grep $MYIP)
+    IZIN=$(curl -sS https://raw.githubusercontent.com/lunoxximpostor/4344mSDFNANSKJBNHGBRASsadsahbPX/main/access | awk '{print $2}' | grep $MYIP)
     if [[ "$MYIP" = "$IZIN" ]]; then
         Bloman
     else
@@ -186,7 +186,7 @@ sleep 2
 clear
 
 #rm -rf /usr/share/nginx/html/index.html
-#wget -q -O /usr/share/nginx/html/index.html "https://raw.githubusercontent.com/annelyah23/xyz/main/index.html"
+#wget -q -O /usr/share/nginx/html/index.html "https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main/index.html"
 
 # Finish
 rm -f /root/ins-xray.sh
@@ -201,7 +201,7 @@ echo -e "${RB}      .============================================.${NC}"
 echo -e "${RB}      |${NC}    ${CB}Installation Has Been Completed${NC}         ${RB}|${NC}"
 echo -e "${RB}      '============================================'${NC}"
 echo -e "${CB}————————————————————————————————————————————————————————${NC}"
-echo -e "      ${RB}🚀 ${NC} ${WB}Premium Autoscript By JsPhantom ${NC} ${RB}🚀 ${NC}"
+echo -e "      ${RB}🚀 ${NC} ${WB}Premium Autoscript By LunoxImpostor ${NC} ${RB}🚀 ${NC}"
 echo -e "${CB}————————————————————————————————————————————————————————${NC}"
 echo -e "                  ${WB}»»» Info Xray «««${NC}"
 echo -e "${CB}————————————————————————————————————————————————————————${NC}"
@@ -238,7 +238,7 @@ echo -e "  ${GB}✅${NC} ${YB}Automatic Clear Log${NC}"
 echo -e "  ${GB}✅${NC} ${YB}Media Checker${NC}"
 echo -e "  ${GB}✅${NC} ${YB}DNS Changer${NC}"
 echo -e "${CB}————————————————————————————————————————————————————————${NC}"
-echo -e "           ${WB}»»» Autoscript By JsPhantom «««${NC}             "
+echo -e "           ${WB}»»» Autoscript By LunoxImpostor «««${NC}             "
 echo -e "${CB}————————————————————————————————————————————————————————${NC}"
 echo ""
 secs_to_human "$(($(date +%s) - ${start}))"
