@@ -15,21 +15,21 @@ LIGHT='\033[0;37m'
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
-IZIN=$( curl https://raw.githubusercontent.com/annelyah23/IP/main/access | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/lunoxximpostor/4344mSDFNANSKJBNHGBRASsadsahbPX/main/access | grep $MYIP )
 if [ $MYIP = $MYIP ]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
 echo -e "${NC}${RED}Permission Denied!${NC}";
 echo -e "${NC}${LIGHT}Please Contact Admin!!"
 echo -e "${NC}${LIGHT}Facebook : "
-echo -e "${NC}${LIGHT}WhatsApp : 085754292950"
-echo -e "${NC}${LIGHT}Telegram : https://t.me/Hendra2012"
+echo -e "${NC}${LIGHT}WhatsApp : 085123456789"
+echo -e "${NC}${LIGHT}Telegram : https://t.me/lunoximpostor"
 exit 0
 fi
 # Link Hosting Kalian
 tarapkuhing="raw.githubusercontent.com/Tarap-Kuhing/scriptvps/main/sshws"
 
-wget -O /usr/local/bin/ws-dropbear https://raw.githubusercontent.com/annelyah23/xyz/main/sshws/ws-dropbear
+wget -O /usr/local/bin/ws-dropbear https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main/sshws/ws-dropbear
 chmod +x /usr/local/bin/ws-dropbear
 
 # Installing Service
@@ -57,7 +57,7 @@ systemctl enable ws-dropbear.service
 systemctl start ws-dropbear.service
 systemctl restart ws-dropbear.service
 
-wget -O /usr/local/bin/ws-ovpn https://raw.githubusercontent.com/annelyah23/xyz/main/sshws/ws-ovpn.py
+wget -O /usr/local/bin/ws-ovpn https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main/sshws/ws-ovpn.py
 chmod +x /usr/local/bin/ws-ovpn
 
 # Installing Service
@@ -84,7 +84,7 @@ systemctl daemon-reload
 systemctl enable ws-ovpn
 systemctl restart ws-ovpn
 
-wget -O /usr/local/bin/ws-stunnel https://raw.githubusercontent.com/annelyah23/xyz/main/sshws/ws-stunnel
+wget -O /usr/local/bin/ws-stunnel https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main/sshws/ws-stunnel
 chmod +x /usr/local/bin/ws-stunnel
 
 # Installing Service
