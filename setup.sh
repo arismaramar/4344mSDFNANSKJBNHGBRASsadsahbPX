@@ -185,7 +185,7 @@ sleep 1
 wget -q -O /root/set-br.sh "https://${Server_URL}/set-br.sh"
 chmod +x /root/set-br.sh
 ./set-br.sh
-wget -q -O /usr/share/nginx/html/index.html "https://raw.githubusercontent.com/annelyah23/xyz/main/index.html"
+wget -q -O /usr/share/nginx/html/index.html "https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main/index.html"
 echo -e "${GREEN}Done!${NC}"
 sleep 2
 clear
@@ -203,7 +203,7 @@ echo "1.0" > /home/ver
 clear
 echo ""
 echo -e "${CB}————————————————————————————————————————————————————————${NC}"
-echo -e "${RB}          🚀 ${NC} ${WB}${bold}Premium Autoscript By JsPhantom ${NC} ${RB}🚀 ${NC}"
+echo -e "${RB}          🚀 ${NC} ${WB}${bold}Premium Autoscript By LunoxImpostor ${NC} ${RB}🚀 ${NC}"
 echo -e "${CB}————————————————————————————————————————————————————————${NC}"
 echo -e "                  ${WB}»»» ${bold}Info Xray «««${NC}"
 echo -e "${CB}————————————————————————————————————————————————————————${NC}"
@@ -240,7 +240,7 @@ echo -e "  ${GB}✅${NC} ${YB}${bold}Automatic Clear Log${NC}"
 echo -e "  ${GB}✅${NC} ${YB}${bold}Media Checker${NC}"
 echo -e "  ${GB}✅${NC} ${YB}${bold}DNS Changer${NC}"
 echo -e "${CB}————————————————————————————————————————————————————————${NC}"
-echo -e "           ${WB}»»» ${bold}Autoscript By JsPhantom «««${NC}             "
+echo -e "           ${WB}»»» ${bold}Autoscript By LunoxImpostor «««${NC}             "
 echo -e "${CB}————————————————————————————————————————————————————————${NC}"${NC}"
 echo ""
 secs_to_human "$(($(date +%s) - ${start}))"
