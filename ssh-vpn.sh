@@ -233,7 +233,7 @@ wget -O /etc/nginx/conf.d/vps.conf "https://${Server_URL}/vps.conf"
 
 # install badvpn
 cd
-wget -O /usr/bin/badvpn-udpgw "https://raw.githubusercontent.com/annelyah23/xyz/main/ssh/newudpgw"
+wget -O /usr/bin/badvpn-udpgw "https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/blob/main/ssh/newudpgw"
 chmod +x /usr/bin/badvpn-udpgw
 sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7100 --max-clients 500' /etc/rc.local
 sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7200 --max-clients 500' /etc/rc.local
@@ -393,7 +393,7 @@ wget -q -O /etc/issue.net "https://${Server_URL}/issues.net" && chmod +x /etc/is
 echo "Banner /etc/issue.net" >>/etc/ssh/sshd_config
 
 # Ganti Banner
-wget -O /etc/issue.net "https://raw.githubusercontent.com/annelyah23/xyz/main/ssh/issue.net"
+wget -O /etc/issue.net "https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main/ssh/issue.net"
 
 # blockir torrent
 iptables -A FORWARD -m string --string "get_peers" --algo bm -j DROP
@@ -440,21 +440,21 @@ wget -O menu-xrt "https://${Server_URL}/menu-xrt.sh"
 wget -O certxray "https://${Server_URL}/cert.sh"
 
 # menu ssh ovpn
-wget -O m-sshovpn "https://raw.githubusercontent.com/annelyah23/xyz/main/m-sshovpn.sh"
-wget -O usernew "https://raw.githubusercontent.com/annelyah23/xyz/main/ssh/usernew.sh"
-wget -O trial "https://raw.githubusercontent.com/annelyah23/xyz/main/ssh/trial.sh"
-wget -O renew "https://raw.githubusercontent.com/annelyah23/xyz/main/ssh/renew.sh"
-wget -O hapus "https://raw.githubusercontent.com/annelyah23/xyz/main/ssh/hapus.sh"
-wget -O cek "https://raw.githubusercontent.com/annelyah23/xyz/main/ssh/cek.sh"
-wget -O member "https://raw.githubusercontent.com/annelyah23/xyz/main/ssh/member.sh"
-wget -O delete "https://raw.githubusercontent.com/annelyah23/xyz/main/ssh/delete.sh"
-wget -O autokill "https://raw.githubusercontent.com/annelyah23/xyz/main/ssh/autokill.sh"
-wget -O ceklim "https://raw.githubusercontent.com/annelyah23/xyz/main/ssh/ceklim.sh"
-wget -O portovpn "https://raw.githubusercontent.com/annelyah23/xyz/main/ssh/portovpn.sh"
-wget -O tendang "https://raw.githubusercontent.com/annelyah23/xyz/main/ssh/tendang.sh"
-wget -O insshws "https://raw.githubusercontent.com/annelyah23/xyz/main/sshws/insshws.sh"
-wget -O issue "https://raw.githubusercontent.com/annelyah23/xyz/main/ssh/issue.net"
-wget -O webmin "https://raw.githubusercontent.com/annelyah23/xyz/main/ssh/webmin.sh"
+wget -O m-sshovpn "https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main/m-sshovpn.sh"
+wget -O usernew "https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main/ssh/usernew.sh"
+wget -O trial "https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main/ssh/trial.sh"
+wget -O renew "https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main/ssh/renew.sh"
+wget -O hapus "https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main/ssh/hapus.sh"
+wget -O cek "https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main/ssh/cek.sh"
+wget -O member "https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main/ssh/member.sh"
+wget -O delete "https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main/ssh/delete.sh"
+wget -O autokill "https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main/ssh/autokill.sh"
+wget -O ceklim "https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main/ssh/ceklim.sh"
+wget -O portovpn "https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main/ssh/portovpn.sh"
+wget -O tendang "https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main/ssh/tendang.sh"
+wget -O insshws "https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main/sshws/insshws.sh"
+wget -O issue "https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main/ssh/issue.net"
+wget -O webmin "https://raw.githubusercontent.com/lunoxximpostor/4342mSDFNANSKJBNHGBRASsadsahbPX/main/ssh/webmin.sh"
 
 chmod +x menu-tr
 chmod +x menu-ws
