@@ -49,7 +49,7 @@ echo ""
 echo -e "Your IP is ${red}NOT REGISTER${NC} @ ${red}EXPIRED${NC}"
 echo ""
 echo -e "Please Contact ${green}Admin${NC}"
-echo -e "Telegram : t.me/JsPhantom"
+echo -e "Telegram : t.me/lunoximpostor"
 exit 0
 fi
 clear
